@@ -1,0 +1,6 @@
+framework module WHGetBundle {
+  umbrella header "WHGetBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}

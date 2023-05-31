@@ -7,11 +7,14 @@
 //
 
 import UIKit
-
+import WHGetBundle
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let bundle = WHGetBundle.wh_getBundleWith(bundleName: "bundleName")
+        let image = bundle?.getImageWith(imageName: "imageName")
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,0 +1,16 @@
+PODS:
+  - WHGetBundle (0.1.0)
+
+DEPENDENCIES:
+  - WHGetBundle (from `../`)
+
+EXTERNAL SOURCES:
+  WHGetBundle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WHGetBundle: 085f6d922df315b90d961d86efb1c30f8f3ab1d9
+
+PODFILE CHECKSUM: 25b59b938e8dd17ed76bba649023b37e9f4d2a0f
+
+COCOAPODS: 1.11.3
