@@ -18,7 +18,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```ruby
 pod 'WHGetBundle'
 ```
-
+以下为使用示例：
+```ruby
+let bundle = WHGetBundle.wh_getBundleWith(bundleName: "bundleName")
+let image = bundle?.getImageWith(imageName: "imageName")
+```
 
 ## Author
 
