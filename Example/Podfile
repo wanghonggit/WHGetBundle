@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WHGetBundle_Example' do
+  pod 'WHGetBundle', :path => '../'
+
+  target 'WHGetBundle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
